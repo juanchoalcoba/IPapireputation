@@ -1,0 +1,33 @@
+
+  .container {
+    max-width: 600px;
+  }
+
+  #form h1 {
+    text-align: center;
+  }
+  /* Estilos para la caja de resultados */
+  #results {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    width: 100%
+}
+    
+  .hidden {
+    display: none;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para el placeholder del input */
+  input[type='text']::placeholder {
+    color: #ccc; /* Cambia este color al que desees */
+  }
